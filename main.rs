@@ -17,8 +17,7 @@ fn run() {
     let what = "what";
     let i = "I";
     let can = "can";
-    let do = "do";
-    let in = "in";
+    let doin = "do in";
     let rust = "rust";
     
     println!("{}, {}, {}, {}, {}, {}, {}", look, what, i, can, do, in, rust);

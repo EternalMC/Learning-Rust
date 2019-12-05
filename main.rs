@@ -1,5 +1,6 @@
 fn main() {
     run();
+    math();
 }
 
 fn run() {
@@ -21,4 +22,12 @@ fn run() {
     let rust = "rust";
     
     println!("{}, {}, {}, {}, {}, {}", look, what, i, can, doin, rust);
+}
+fn math() {
+let x = 2;
+let y = 2;
+
+ let z = x + y;
+
+   println!("{}", z);
 }

@@ -12,6 +12,3 @@ edition = "2018"
 [[bin]]
 name = "first_program"
 path = "main.rs"
-
-[test]
-cargo run

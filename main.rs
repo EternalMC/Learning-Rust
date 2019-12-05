@@ -20,5 +20,5 @@ fn run() {
     let doin = "do in";
     let rust = "rust";
     
-    println!("{}, {}, {}, {}, {}, {}, {}", look, what, i, can, do, in, rust);
+    println!("{}, {}, {}, {}, {}, {}", look, what, i, can, doin, rust);
 }

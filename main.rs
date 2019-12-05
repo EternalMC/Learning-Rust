@@ -1,4 +1,8 @@
 
 fn main() {
-    println!("hi");
+    run();
+}
+
+fn run() {
+    println!("Rust is awesome");
 }

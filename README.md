@@ -1,2 +1,2 @@
 # Rust-Projects
-For all my Rust projects
+A place for me to learn rust.

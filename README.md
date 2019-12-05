@@ -1,2 +1,2 @@
-# Cpp-Projects
-For all my C++ projects
+# Rust-Projects
+For all my Rust projects

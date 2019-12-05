@@ -12,5 +12,5 @@ fn run() {
     let a = 'a';
     println!("{}", a);
     
-    println!("{:?}", i, a);
+    println!("{}, {}", i, a);
 }

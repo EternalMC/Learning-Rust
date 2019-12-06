@@ -1,6 +1,6 @@
 mod run;
 
 fn main() {
-    run();
-    math();
+    run::run();
+    run::math();
 }

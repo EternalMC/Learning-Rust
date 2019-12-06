@@ -1,5 +1,5 @@
+
 pub fn run() {
-fn run() {
     println!("Rust is awesome.");
     
     let i = 16;
@@ -19,7 +19,7 @@ fn run() {
     
     println!("{}, {}, {}, {}, {}, {}", look, what, i, can, doin, rust);
 }
-fn math() {
+pub fn math() {
 let x = 2;
 let y = 2;
 
@@ -27,4 +27,4 @@ let y = 2;
 
    println!("{}", z);
    }
-}
+

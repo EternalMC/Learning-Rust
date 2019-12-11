@@ -36,7 +36,7 @@ pub fn loops() {
 pub fn ifloop() {
 let i = 9;
     if i == 9 {
-      for index in 0..2 {
+      for index in 0..11 {
          println!("{}", index);
       }
    }   

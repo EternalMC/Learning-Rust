@@ -33,3 +33,10 @@ pub fn loops() {
          println!("{}", index);
       }
 }
+pub fn ifloop() {
+let i = 9;
+    if(i == 9) {
+      for index in 0..2 {
+         println!("{}", index);
+      }
+}

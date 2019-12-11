@@ -27,4 +27,9 @@ let y = 2;
 
    println!("{}", z);
    }
+pub fn loops() {
 
+      for index in 0..2 {
+         println!("{}", index);
+      }
+}

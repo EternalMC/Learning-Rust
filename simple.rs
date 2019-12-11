@@ -27,18 +27,3 @@ let y = 2;
 
    println!("Adding 2 + 2 = {}", z);
    }
-pub fn loops() {
-  println!("A simple loop");
-      for index in 0..2 {
-         println!("{}", index);
-      }
-}
-pub fn ifloop() {
-    println!("Loop in a if statement");
-let i = 9;
-    if i == 9 {
-      for index in 0..11 {
-         println!("{}", index);
-      }
-   }   
-}

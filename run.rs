@@ -39,4 +39,5 @@ let i = 9;
       for index in 0..2 {
          println!("{}", index);
       }
+   }   
 }

@@ -25,7 +25,7 @@ let y = 2;
 
  let z = x + y;
 
-   println!("{}", z);
+   println!("Adding 2 + 2 = {}", z);
    }
 pub fn loops() {
 

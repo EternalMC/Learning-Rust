@@ -1,8 +1,9 @@
 mod simple;
+mod loops;
 
 fn main() {
     simple::run();
     simple::math();
-    simple::loops();
-    simple::ifloop();
+    loops::loops();
+    loops::ifloop();
 }

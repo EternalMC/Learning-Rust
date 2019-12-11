@@ -4,4 +4,5 @@ fn main() {
     run::run();
     run::math();
     run::loops();
+    run::ifloop();
 }

@@ -46,7 +46,7 @@ use rand::distributions::{Distribution, Uniform};
 	    	  println!(hp);
 	      }
 	      
-	      System.out.println("Random Integers: "+ rand_int2); 
+	      System.out.println("Random Integers: "+ rng0); 
 	   
 	      //do not place anything after this
 }

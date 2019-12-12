@@ -1,2 +1,2 @@
-- name: Github Deployment
-  uses: NiklasMerz/github-deployment-action@v1.0.0
+     - name: Github Deployment
+        uses: NiklasMerz/github-deployment-action@v1.0.0

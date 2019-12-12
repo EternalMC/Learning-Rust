@@ -24,7 +24,7 @@ use rand::Rng;
 	}
 	pub fn numgen() {
 		  //Random rand = new Random(); 
-			int mut hp = 10;
+			let mut hp: i8 = 10;
 			//String name;
 	      // Generate random integers in range 0 to 50
     		let rng0 = rand::thread_rng().gen_range(0, 51);

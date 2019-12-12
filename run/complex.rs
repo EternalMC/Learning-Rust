@@ -12,7 +12,7 @@ use rand::Rng;
 		
 			print!("Please enter your name: ");
 				let mut name = String::new();
-					io::stdin::read_line(&mut name).expect(“error: unable to read user input”);
+					io::stdin::read_line(&mut name).expect("error: unable to read user input");
 				
 				println!("Name: {}", name);
 

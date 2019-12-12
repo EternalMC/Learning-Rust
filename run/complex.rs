@@ -37,7 +37,7 @@ use rand::Rng;
 	      if rng0 < 20  {
 	    	  println!("Dice Roll: {}", rng0);
 	    	  hp -= 1;
-	    	  println!("HP: " + hp);
+	    	  println!("HP: {}", hp);
 	      }
 	      else {
 	    	  println!("Dice Roll: {}", rng0);
@@ -45,17 +45,7 @@ use rand::Rng;
 	    	  println!(hp);
 	      }
 	      
-	      println!("Random Integers: "+ rng1); 
+	      println!("Random Integers: {}", rng1); 
 	   
 	      //do not place anything after this
 }
-
-/*
-use std::io;
-use std::io::*;
-fn main(){
-let mut input = String::new();
-io::stdin::().read_line(&mut input).expect(“error: unable to read user input”);
-println!("{}",input);
-}
-*/

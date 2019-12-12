@@ -20,7 +20,7 @@ use rand::Rng;
    				 Err(error) => println!("error: {}", error),
 				}				
 
-		numgen(); //more errors 
+		numgen(); // no errors in rust :)
 	}
 	pub fn numgen() {
 		  //Random rand = new Random(); 

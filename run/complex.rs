@@ -5,13 +5,13 @@ use std::io;
 	pub fn main() {
 		println!("New Program.");
 		
-			System.out.println("Welcome to a game.");
+			println!("Welcome to a game.");
 		
-			System.out.print("Please enter your name: ");
+			print("Please enter your name: ");
 				let mut name = String::new();
 					io::stdin::().read_line(&mut name).expect(“error: unable to read user input”);
 				
-				System.out.println("Name: {}", name);
+				println!("Name: {}", name);
 
 		numgen(); //more errors 
 	}
@@ -22,7 +22,7 @@ use std::io;
 	      // Generate random integers in range 0 to 50 
 	      int rand_int1 = rand.nextInt(51); 
 	      int rand_int2 = rand.nextInt(51); 
-	      System.out.println("Starting HP: " + hp);
+	      println!("Starting HP: {}", hp);
 	      try {
 			this.wait(2);
 		} catch (InterruptedException e) {
@@ -31,14 +31,14 @@ use std::io;
 		}
 	      // Print random integers 
 	      if rand_int1 < 20  {
-	    	  System.out.println("Dice Roll: "+ rand_int1);
+	    	  println!("Dice Roll: "+ rand_int1);
 	    	  hp -= 1;
-	    	  System.out.println("HP: " + hp);
+	    	  println!("HP: " + hp);
 	      }
 	      else {
-	    	  System.out.println("Dice Roll: "+ rand_int1);
-	    	  //System.out.println(name + " lives a another day.");
-	    	  System.out.println(hp);
+	    	  println!("Dice Roll: "+ rand_int1);
+	    	  //println(name + " lives a another day.");
+	    	  println!(hp);
 	      }
 	      
 	      System.out.println("Random Integers: "+ rand_int2); 

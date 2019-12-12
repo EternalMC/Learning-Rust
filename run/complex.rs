@@ -3,7 +3,7 @@ use std::io;
 //from a java program I made 
 
 	pub fn main() {
-		
+		println!("New Program.");
 		//String name;
 		
 		int hp = 10;

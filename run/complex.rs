@@ -4,12 +4,7 @@ use std::io;
 
 	pub fn main() {
 		println!("New Program.");
-		//String name;
 		
-		int hp = 10;
-
-		
-		//Scanner input = new Scanner(System.in);
 			System.out.println("Welcome to a game.");
 		
 			System.out.print("Please enter your name: ");
@@ -17,12 +12,12 @@ use std::io;
 					io::stdin::().read_line(&mut name).expect(“error: unable to read user input”);
 				
 				System.out.println("Name: {}", name);
-		//input.close();
+
 		numgen(); //more errors 
 	}
 	pub fn numgen() {
 		  //Random rand = new Random(); 
-			int hp = 10;
+			int mut hp = 10;
 			//String name;
 	      // Generate random integers in range 0 to 50 
 	      int rand_int1 = rand.nextInt(51); 

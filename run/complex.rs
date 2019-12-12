@@ -1,51 +1,17 @@
-use std::io;
-extern crate rand;
-
-use rand::Rng;
-
-//from a java program I made 
-
-	pub fn main() {
-		println!("New Program.");
-		
-			println!("Welcome to a game.");
-		
-			print!("Please enter your name: ");
-				let mut name = String::new();
-				match io::stdin().read_line(&mut name) {
-    					Ok(n) => {
-						println!("{} bytes read", n);
-      						  println!("Name: {}", name);
-   					 }
-   				 Err(error) => println!("error: {}", error),
-				}				
-
-		numgen(); // no errors in rust :)
-	}
-	pub fn numgen() {
-		  //Random rand = new Random(); 
-			let mut hp: i8 = 10;
-			//String name;
-	      // Generate random integers in range 0 to 50
-    		let rng0 = rand::thread_rng().gen_range(0, 51);
-    		let rng1 = rand::thread_rng().gen_range(0, 51);
-		
-
-	      println!("Starting HP: {}", hp);
-
-	      // Print random integers 
-	      if rng0 < 20  {
-	    	  println!("Dice Roll: {}", rng0);
-	    	  hp -= 1;
-	    	  println!("HP: {}", hp);
-	      }
-	      else {
-	    	  println!("Dice Roll: {}", rng0);
-	    	  //println!(name + " lives a another day.");
-	    	  println!("HP: {}", hp);
-	      }
-	      
-	      println!("Random Integers: {}", rng1); 
-	   
-	      //do not place anything after this
+mod complex {
+fn loops() {
+  println!("A simple loop");
+      for index in 0..5 {
+         println!("{}", index);
+      }
+}
+fn ifloop() {
+    println!("Loop in a if statement:");
+let i = 9;
+    if i == 9 {
+      for index in 0..13 {
+         println!("{}", index);
+      }
+   }   
+}
 }

@@ -1,4 +1,3 @@
-mod complex {
 fn loops() {
   println!("A simple loop");
       for index in 0..5 {
@@ -13,5 +12,4 @@ let i = 9;
          println!("{}", index);
       }
    }   
-}
 }

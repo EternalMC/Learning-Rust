@@ -13,8 +13,8 @@ use std::io;
 			System.out.println("Welcome to a game.");
 		
 			System.out.print("Please enter your name: ");
-				//name = input.nextLine();
-
+				let mut name = String::new();
+					io::stdin::().read_line(&mut name).expect(“error: unable to read user input”);
 				
 				System.out.println("Name: " + name);
 		//input.close();

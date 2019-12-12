@@ -1,4 +1,4 @@
-//import java.util.*;
+#[macro_use] extern crate text_io;
 
 //from a java program I made 
 

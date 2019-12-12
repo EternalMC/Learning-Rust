@@ -16,7 +16,7 @@ use std::io;
 				let mut name = String::new();
 					io::stdin::().read_line(&mut name).expect(“error: unable to read user input”);
 				
-				System.out.println("Name: " + name);
+				System.out.println("Name: {}", name);
 		//input.close();
 		numgen(); //more errors 
 	}

@@ -1,4 +1,4 @@
-#[macro_use] extern crate text_io;
+use std::io;
 
 //from a java program I made 
 
@@ -51,3 +51,12 @@
 	      //do not place anything after this
 }
 
+/*
+use std::io;
+use std::io::*;
+fn main(){
+let mut input = String::new();
+io::stdin::().read_line(&mut input).expect(“error: unable to read user input”);
+println!("{}",input);
+}
+*/

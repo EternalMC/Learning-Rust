@@ -42,7 +42,7 @@ use rand::Rng;
 	      else {
 	    	  println!("Dice Roll: {}", rng0);
 	    	  //println!(name + " lives a another day.");
-	    	  println!(hp);
+	    	  println!("HP: {}", hp);
 	      }
 	      
 	      println!("Random Integers: {}", rng1); 

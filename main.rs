@@ -7,5 +7,5 @@ fn main() {
     simple::math();
     loops::loops();
     loops::ifloop();
-    run::complex();
+    run::complex::run();
 }

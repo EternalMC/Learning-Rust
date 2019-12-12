@@ -1,4 +1,7 @@
 use std::io;
+extern crate rand;
+
+use rand::distributions::{Distribution, Uniform};
 
 //from a java program I made 
 
@@ -19,9 +22,11 @@ use std::io;
 		  //Random rand = new Random(); 
 			int mut hp = 10;
 			//String name;
-	      // Generate random integers in range 0 to 50 
-	      int rand_int1 = rand.nextInt(51); 
-	      int rand_int2 = rand.nextInt(51); 
+	      // Generate random integers in range 0 to 50
+		let mut rng = rand::thread_rng();
+		
+    		let rng0 = Uniform::from(1..50);
+
 	      println!("Starting HP: {}", hp);
 	      try {
 			this.wait(2);
@@ -30,13 +35,13 @@ use std::io;
 			e.printStackTrace();
 		}
 	      // Print random integers 
-	      if rand_int1 < 20  {
-	    	  println!("Dice Roll: "+ rand_int1);
+	      if rng0 < 20  {
+	    	  println!("Dice Roll: {}", rng0);
 	    	  hp -= 1;
 	    	  println!("HP: " + hp);
 	      }
 	      else {
-	    	  println!("Dice Roll: "+ rand_int1);
+	    	  println!("Dice Roll: {}", rng0);
 	    	  //println(name + " lives a another day.");
 	    	  println!(hp);
 	      }

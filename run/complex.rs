@@ -1,7 +1,7 @@
 use std::io;
 extern crate rand;
 
-use rand::distributions::{Distribution, Uniform};
+use rand::Rng;
 
 //from a java program I made 
 
@@ -23,9 +23,9 @@ use rand::distributions::{Distribution, Uniform};
 			int mut hp = 10;
 			//String name;
 	      // Generate random integers in range 0 to 50
-		let mut rng = rand::thread_rng();
+    		let rng0 = rand::thread_rng().gen_range(0, 51);
+    		let rng1 = rand::thread_rng().gen_range(0, 51);
 		
-    		let rng0 = Uniform::from(1..50);
 
 	      println!("Starting HP: {}", hp);
 	      try {
@@ -46,7 +46,7 @@ use rand::distributions::{Distribution, Uniform};
 	    	  println!(hp);
 	      }
 	      
-	      System.out.println("Random Integers: "+ rng0); 
+	      System.out.println("Random Integers: "+ rng1); 
 	   
 	      //do not place anything after this
 }

@@ -10,7 +10,7 @@ use rand::Rng;
 		
 			println!("Welcome to a game.");
 		
-			print("Please enter your name: ");
+			print!("Please enter your name: ");
 				let mut name = String::new();
 					io::stdin::().read_line(&mut name).expect(“error: unable to read user input”);
 				
@@ -42,11 +42,11 @@ use rand::Rng;
 	      }
 	      else {
 	    	  println!("Dice Roll: {}", rng0);
-	    	  //println(name + " lives a another day.");
+	    	  //println!(name + " lives a another day.");
 	    	  println!(hp);
 	      }
 	      
-	      System.out.println("Random Integers: "+ rng1); 
+	      println!("Random Integers: "+ rng1); 
 	   
 	      //do not place anything after this
 }

@@ -1,5 +1,7 @@
 //import java.util.*;
 
+//from a java program I made 
+
 	pub fn main() {
 		
 		//String name;

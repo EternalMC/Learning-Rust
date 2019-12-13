@@ -1,6 +1,6 @@
 mod simple;
 mod loops;
-mod lib;
+mod run;
 
 fn main() {
     simple::run();

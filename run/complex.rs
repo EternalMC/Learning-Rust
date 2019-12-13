@@ -1,10 +1,12 @@
-fn loops() {
+pub fn loops() {
   println!("A simple loop");
       for index in 0..5 {
          println!("{}", index);
+        
+        ifloop();
       }
 }
-fn ifloop() {
+pub fn ifloop() {
     println!("Loop in a if statement:");
 let i = 9;
     if i == 9 {

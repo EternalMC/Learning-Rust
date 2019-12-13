@@ -1,4 +1,4 @@
-pub fn loops() {
+pub fn main() {
   println!("A simple loop");
       for index in 0..5 {
          println!("{}", index);

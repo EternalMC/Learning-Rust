@@ -1,5 +1,5 @@
 mod complex;
 
-fn main() {
+pub fn main() {
     complex::main();
 }

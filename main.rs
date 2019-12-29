@@ -1,3 +1,5 @@
+mod simple;
+mod loops;
 mod run;
 // 325dfa5 is the commit
 fn main() {

@@ -1,5 +1,5 @@
 mod complex;
 
 fn main() {
-    complex::main;
+    complex::main();
 }

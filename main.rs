@@ -6,7 +6,7 @@ mod run;
 // 325dfa5 is the commit
 fn main() {
     let num = num_cpus::get();
-    println!("{}", num);
+    println!("Number of Cores: {}", num);
     simple::run();
     simple::math();
     loops::loops();
